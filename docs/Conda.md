@@ -30,3 +30,8 @@ Importing an environment:
 ```
 conda env create -f environment.yml
 ```
+
+Removing an environment with everything in it:
+```
+conda env remove --name <env_name>
+```
